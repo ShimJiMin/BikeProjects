@@ -8,7 +8,8 @@
 </head>
 <body>
 	<center>
-		bottom
+		<div id="bottom_div">
+		</div>
 	</center>
 </body>
 </html>

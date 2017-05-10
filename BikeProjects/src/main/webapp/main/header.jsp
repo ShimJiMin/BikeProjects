@@ -8,7 +8,20 @@
 </head>
 <body>
 	<center>
-		header
+		<div id="header_div">
+			<img id="header_logo" alt="logo" src="image/1738.png" >
+		</div>
+		<div id="header_div2">
+			<ul class="menu">
+				<li>홈</li>
+				<li>우리는..</li>
+				<li>견적 내기</li>
+				<li>묻고 답하기</li>
+				<li>동호회</li>
+				<li>초보 공간</li>
+				<li>로그인</li>
+			</ul>
+		</div>
 	</center>
 </body>
 </html>

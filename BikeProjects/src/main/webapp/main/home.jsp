@@ -8,7 +8,9 @@
 </head>
 <body>
 	<center>
-		home
+		<div id="home_div">
+			<img id="home_img" alt="home_img" src="image/home_img.jpg">
+		</div>
 	</center>
 </body>
 </html>
