@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 	
 	@RequestMapping("main/main.do")
-	public String main() {
+	public String home() {
 		
 		return "main/main";
 	}
