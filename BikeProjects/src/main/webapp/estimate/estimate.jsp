@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="estimate.css">
+
 </head>
 <body>
 	<center>
@@ -25,8 +25,8 @@
 
 				</div>
 				<div id="estimate_prodect_btn">
-					<input type="button" value="이전">
 					<input type="button" value="다음">
+					<input type="button" value="이전">
 				</div>
 			</div>
 			

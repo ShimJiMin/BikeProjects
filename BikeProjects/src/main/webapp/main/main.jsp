@@ -6,11 +6,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="../estimate/estimate.css">
 </head>
 <body id="body">
 	<center>
 		<jsp:include page="header.jsp"></jsp:include>
 		<jsp:include page="home.jsp"></jsp:include>
+		<jsp:include page="../estimate/estimate.jsp"></jsp:include>
 		<jsp:include page="bottom.jsp"></jsp:include>
 	</center>
 </body>
