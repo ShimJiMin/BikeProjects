@@ -1,8 +1,14 @@
 @CHARSET "EUC-KR";
 
+#body {
+	padding: 0px;
+	margin: 0px;
+}
+
 #header_div {
-	width: 1200px;
+	width: 100%;
 	height: 120px;
+	
 	background-color: black;
 }
 
@@ -13,7 +19,7 @@
 }
 
 #header_div2 {
-	width: 1200px;
+	width: 100%;
 	height: 40px;
 	background-color: #00a8f3;
 	margin: 0 auto;
@@ -36,7 +42,7 @@
 }
 
 #home_div {
-	width: 1200px;
+	width: 100%;
 	height: 650px;
 	background-color: #c3c3c3;
 }
@@ -48,7 +54,7 @@
 }
 
 #bottom_div {
-	width: 1200px;
+	width: 100%;
 	height: 70px;
 	background-color: yellow;
 }

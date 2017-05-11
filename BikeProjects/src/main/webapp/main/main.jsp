@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body>
+<body id="body">
 	<center>
 		<jsp:include page="header.jsp"></jsp:include>
 		<jsp:include page="home.jsp"></jsp:include>
