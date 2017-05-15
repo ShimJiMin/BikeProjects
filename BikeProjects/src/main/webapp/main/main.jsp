@@ -13,6 +13,7 @@
 		<jsp:include page="header.jsp"></jsp:include>
 		<jsp:include page="home.jsp"></jsp:include>
 		<jsp:include page="../estimate/estimate.jsp"></jsp:include>
+		<jsp:include page="../qnaboard/qnaboard.jsp"></jsp:include>
 		<jsp:include page="bottom.jsp"></jsp:include>
 	</center>
 </body>
