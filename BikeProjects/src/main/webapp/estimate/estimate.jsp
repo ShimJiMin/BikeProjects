@@ -8,6 +8,7 @@
 
 </head>
 <body>
+	<section id="estimateLink">
 	<center>
 		<div id="estimate_home">
 			<div id="estimate_title">
@@ -35,5 +36,6 @@
 			</div>
 		</div>
 	</center>
+	</section>
 </body>
 </html>

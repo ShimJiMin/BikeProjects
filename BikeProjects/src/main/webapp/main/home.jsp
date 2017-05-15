@@ -7,10 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<section id="homeLink">
 	<center>
 		<div id="home_div">
 			<img id="home_img" alt="home_img" src="image/home_img.jpg">
 		</div>
 	</center>
+	</section>
 </body>
 </html>
