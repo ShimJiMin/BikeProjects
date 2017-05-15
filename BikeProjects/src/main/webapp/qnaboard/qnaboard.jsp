@@ -23,7 +23,7 @@
 			</table>
 			
 			<table id="qna_table_content">
-			
+				
 			</table>
 			
 			<table id="qna_table_bottom">
