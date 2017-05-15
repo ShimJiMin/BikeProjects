@@ -7,15 +7,15 @@ import org.apache.ibatis.annotations.Select;
 
 import com.sist.qnaboard.QnaVO;
 
-public interface BoardMapper {
-	/*@Select("SELECT no,subject,name,regdate,hit,group_tab,num "
+public interface BoardMapper {/*
+	@Select("SELECT no,subject,name,regdate,hit,group_tab,num "
 			+"FROM (SELECT no,subject,name,regdate,hit,group_tab,rownum as num "
 			+"FROM (SELECT no,subject,name,regdate,hit,group_tab "
 			+"FROM replyBoard ORDER BY group_id DESC,group_step ASC))"
-			+"WHERE num BETWEEN #{start} AND #{end}")*/
+			+"WHERE num BETWEEN #{start} AND #{end}")
 	@Select("SELECT * FROM qna_board WHERE b_no BETWEEN 1 AND 10 ORDER BY b_no DESC")
 	public List<QnaVO> qnaListData(Map map);
 	
 	@Select("SELECT CEIL(COUNT(*)/10) FROM replyBoard")
-	public int qnaTotalPage();
+	public int qnaTotalPage();*/
 }

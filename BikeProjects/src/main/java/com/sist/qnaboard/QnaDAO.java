@@ -8,17 +8,17 @@ import org.springframework.stereotype.Repository;
 
 import com.sist.mapper.BoardMapper;
 
-@Repository
+/*@Repository*/
 public class QnaDAO {
 	
-	@Autowired
+/*	@Autowired*/
 	private BoardMapper mapper;
 	
-	public List<QnaVO> qnaListData(Map map){
+/*	public List<QnaVO> qnaListData(Map map){
 		return mapper.qnaListData(map);
 	}
 	
 	public int qnaTotalPage(){
 		return mapper.qnaTotalPage();
-	}
+	}*/
 }

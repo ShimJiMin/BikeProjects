@@ -10,15 +10,15 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
-@Controller
+//@Controller
 public class QnaController {
 	
-	@Autowired
-	private QnaDAO dao;
+/*	@Autowired
+	private QnaDAO dao;*/
 	
-	@RequestMapping("qnaboard/qnaboard.do")
+/*	@RequestMapping("qnaboard/qnaboard.do")
 	public String qnaBoard(Model model, String page) {
-	/*	if(page==null)
+		if(page==null)
 			page="1";
 		int curpage=Integer.parseInt(page);
 		int rowSize=10;
@@ -35,8 +35,8 @@ public class QnaController {
 		
 		model.addAttribute("curpage", curpage);
 		model.addAttribute("totalPage",totalPage);
-		model.addAttribute("list",list);*/
+		model.addAttribute("list",list);
 		
 		return "qnaboard/qnaboard.jpg";
-	}
+	}*/
 }
