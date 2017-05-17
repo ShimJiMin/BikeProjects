@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.sist.member.CustomerDAO;
 
-@Controller
+//@Controller
 public class LoginController {
 	
 	@Autowired
@@ -17,7 +17,7 @@ public class LoginController {
 	
 	@RequestMapping("member/login.do")
 	public String member_login(String id,String pwd, Model model,HttpSession session){
-		int count=dao.memberIdCheck(id);
+/*		int count=dao.memberIdCheck(id);
 		String res="";
 		
 		 if(count==0){
@@ -30,7 +30,7 @@ public class LoginController {
 	        	 res = "pwd";
 	         }
 	     }
-		 model.addAttribute("res", res);
+		 model.addAttribute("res", res);*/
 		 
 		 return "member/login_ok";
 	}
