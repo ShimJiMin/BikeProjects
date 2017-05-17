@@ -25,7 +25,7 @@
 	$(function(){
 		$('#login').click(function(){
 			Shadowbox.open({
-				content: '../login/login.jsp',
+				content: '../member/login.jsp',
 				player: 'iframe',
 				title: 'Sign in',
 				width: 300,
@@ -41,8 +41,9 @@
 		<div id="header_div">
 			<img id="header_logo" alt="logo" src="image/logo.png" >
 		</div>
+		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
 		<div id="header_div2">
-			<ul class="menu">
+			<ul class="menu nav navbar-nav navbar-right">
 				<li class="page-scroll"><a href="#homeLink">홈</a></li>
 				<li class="page-scroll"><a href="#">우리는..</a></li>
 				<li class="page-scroll" id="estimate"><a href="#estimateLink">견적 내기</a>
@@ -52,11 +53,12 @@
 					</div>
 				</li>
 				
-				<li class="page-scroll"><a href="#test">묻고 답하기</a></li>
+				<li class="page-scroll"><a href="#qnaboard">묻고 답하기</a></li>
 				<li class="page-scroll"><a href="#">동호회</a></li>
 				<li class="page-scroll"><a href="#">초보 공간</a></li>
 				<li id="login"><a href="#">로그인</a></li>
 			</ul>
+		</nav>
 		</div>
 	</center>
 </body>

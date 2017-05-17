@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<section id="qnaboard">
 	<center>
 		<div id="qnaboard_div">
 			<div id="qnaboard_title">
@@ -31,5 +32,6 @@
 			</table>
 		</div>
 	</center>
+	</section>
 </body>
 </html>

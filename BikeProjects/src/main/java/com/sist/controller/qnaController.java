@@ -1,4 +1,4 @@
-package com.sist.qnaboard;
+package com.sist.controller;
 
 import java.util.HashMap;
 import java.util.List;
