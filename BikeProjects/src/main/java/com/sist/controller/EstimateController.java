@@ -10,7 +10,7 @@ public class EstimateController {
 	@RequestMapping("estimate/estimate.do")
 	public String estimate(Model model) {
 		
-		
+		   
 		return "estimate/estimate";
 	}
 }
