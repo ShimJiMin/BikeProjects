@@ -17,7 +17,6 @@
 
 #header_div2 {
 	width: 100%;
-	height: 45px;
 	background-color: #00ABDF;
 	margin: 0 auto;
 }
@@ -25,7 +24,7 @@
 .menu {
 	float:right; 
 	text-align:center;
-	margin-top: 13px;
+	margin-top: 3px;
 }
 
 .menu li {
@@ -55,7 +54,8 @@
 }
 
 .dropdown{
-		background: black;
+		background: white;
+		color: #00ABDF;
 		position: absolute;
 		min-width: 160px;
 		/* box-shadow: 0 8px 15px #CCC; */
@@ -63,16 +63,7 @@
 		float: left;
 		opacity: .8;
 	}
-	
-.logindropdown{
-		left: 55%;
-		background: #f9f9f9;
-		position: absolute;
-		min-width: 300px;
-		/* box-shadow: 0 8px 15px #CCC; */
-		display: none;
-		float: left;
-	}
+
 #loginBtn{
 	width:70px;
 	height: 70px;
@@ -90,15 +81,19 @@
 	transition-duration: 0.4s;
 	cursor: pointer;
 	}
+	
+	.dropdown a:HOVER {
+	background: black;
+	color: #00ABDF;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	}
 
 #estimate:HOVER .dropdown {
 		display: block;
 	}
 
-#login:HOVER .logindropdown {
-		display: block;
-	}
-	
 #home_div {
 	width: 100%;
 	height: 790px;
@@ -106,13 +101,10 @@
 }
 
 #home_img {
-	margin: 0px;
-	margin-top: 10px;
-	width: 79%;
+	margin-top: 55px;
+	width: 100%;
 }
 
 #bottom_div {
 	width: 100%;
-	height: 70px;
-	background-color: yellow;
 }

@@ -1,5 +1,5 @@
 section {
-    padding: 15px;
+    padding-top: 10px;
 }
 
 .fa {
@@ -29,13 +29,21 @@ footer h3 {
 }
 
 .navbar-nav>li>a {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-#mainNav .dropdown a.active, .dropdown a:active, .dropdown a:focus, .dropdown a:hover {
+#mainNav .dropdown a, .dropdown a.active, .dropdown a:active, .dropdown a:focus, .dropdown a:hover {
 	color: #00ABDF;
 }
+
+page-scroll active .dropdown a.active:HOVER {
+	background: black;
+	color: #00ABDF;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	}
 
 #mainNav a.active, a:active, a:focus, a:hover {
     color: black;
