@@ -61,7 +61,7 @@
 					<c:if test="${sessionScope.id==null }">
 						<a href="#">로그인</a>
 					</c:if>
-					<c:if test="${sessionScope.id==null }">
+					<c:if test="${sessionScope.id!=null }">
 						로그아웃
 					</c:if>
 				</li>

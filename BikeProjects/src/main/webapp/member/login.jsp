@@ -14,11 +14,11 @@
 </script>
 </head>
 <body>
-	<form name="send" action="member/login.do" method="post">
+	<form name="send" action="login.do" method="post">
 	<center>
 			<div id="loginContainer">
-				<input type="text" name="c_id" placeholder="아이디" id="idBox">
-				<input type="password" name="c_pwd" placeholder="패스워드" id="pwdBox">
+				<input type="text" name="id" placeholder="아이디" id="idBox">
+				<input type="password" name="pwd" placeholder="패스워드" id="pwdBox">
 				<input type="button" value="로그인" id="loginBtn" onclick="loginsend();">
 				<a href="#" id="join">회원가입</a>
 			</div>

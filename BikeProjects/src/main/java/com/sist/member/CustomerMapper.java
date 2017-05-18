@@ -4,10 +4,9 @@ import org.apache.ibatis.annotations.Select;
 
 public interface CustomerMapper {
 
-	@Select("SELECT COUNT(*) FROM springMember "
-	         + "WHERE id=#{id}")
+	   @Select("SELECT COUNT(*) FROM customer WHERE c_id=#{id}")
 	   public int memberIdCheck(String id);
 	   
-	   @Select("SELECT pwd FROM springMember WHERE id=#{id}")
+	   @Select("SELECT c_pwd FROM customer WHERE c_id=#{id}")
 	   public String memberGetPassword(String id);
 }

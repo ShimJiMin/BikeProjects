@@ -10,11 +10,10 @@ public class CustomerDAO {
 	private CustomerMapper c_mapper;
 	
 	public int memberIdCheck(String id) {
-	      return c_mapper.memberIdCheck(id);
-	   }
+	    return c_mapper.memberIdCheck(id);
+	}
 	
-	 public String memberGetPassword(String id) {
-	      
-	      return c_mapper.memberGetPassword(id);
-	   }
+	public String memberGetPassword(String id) {
+		return c_mapper.memberGetPassword(id);
+	}
 }

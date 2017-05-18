@@ -30,9 +30,7 @@
 </head>
 <body id="body">
 	<center>
-		<div>
 		<jsp:include page="${header_jsp }"></jsp:include>
-		</div>
 		<jsp:include page="${home_jsp }"></jsp:include>
 		<jsp:include page="${estimate }"></jsp:include>
 		<jsp:include page="${qnaboard }"></jsp:include>

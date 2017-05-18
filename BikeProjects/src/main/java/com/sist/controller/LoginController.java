@@ -17,6 +17,7 @@ public class LoginController {
 	
 	@RequestMapping("member/login.do")
 	public String member_login(String id,String pwd, Model model,HttpSession session){
+		System.out.println("id:"+id);
 		int count=dao.memberIdCheck(id);
 		String res="";
 		
@@ -32,7 +33,9 @@ public class LoginController {
 	     }
 		 model.addAttribute("res", res);
 		 
+		 System.out.println("res : " + res);
 		 return "member/login_ok";
+		 //return "";
 	}
 
 }

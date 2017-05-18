@@ -9,15 +9,18 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.sist.qnaboard.QnaDAO;
+import com.sist.qnaboard.QnaVO;
+
 @Controller
 public class qnaController {
 	
-/*	@Autowired
-	private QnaDAO dao;*/
+	@Autowired
+	private QnaDAO dao;
 	
 	@RequestMapping("qnaboard/qnaboard.do")
 	public String qnaBoard(Model model,String page) {
-/*		if(page==null)
+		if(page==null)
 			page="1";
 		int curpage=Integer.parseInt(page);
 		int rowSize=10;
@@ -28,14 +31,16 @@ public class qnaController {
 		map.put("start", start);
 		map.put("end", end);
 		List<QnaVO> list=dao.qnaList(map);
+		System.out.println(list.size());
 		
 		//int totalPage=dao.boardTotalPage();
 		
 		model.addAttribute("curpage", curpage);
 		//model.addAttribute("totalPage",totalPage);
-		model.addAttribute("list",list);*/
+		model.addAttribute("list",list);
 		
 		
 		return "qnaboard/qnaboard";
+		//return "main/main";
 	}
 }
